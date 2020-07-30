@@ -99,6 +99,11 @@ header{
 }
 /*media */
 @media screen and (max-width:768px){
+  
+  html{
+    scroll-behavior: smooth;
+  }
+
   body{
     overflow-x: hidden;
   }
