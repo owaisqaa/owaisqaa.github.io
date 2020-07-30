@@ -99,7 +99,7 @@ header{
 }
 /*media */
 @media screen and (max-width:768px){
-  
+
   html{
     scroll-behavior: smooth;
   }
@@ -125,7 +125,7 @@ header{
     position: absolute;
     top: 500px;
     left: 50%;
-    transform :translate(-70% , -50%);
+    transform :translate(-75% , -60%);
     width: 300px;
     text-align: center;
     margin-left: 80px;
