@@ -110,18 +110,18 @@ header{
 
   .nav-links{
     position: absolute;
-    height:881px;
+    height:170px;
     right: 0px;
     top: 8vh;
     background-color: #0c1112;
     display: flex;
     flex-direction: column;
     align-items:center;
-    width: 100%;
+    width: 30%;
     transform: translateX(100%);
     transition: transform 1s ease-in-out;
     display: flex;
-    z-index: -1;
+    font-size: 30px;
   }
 
   .navlinks li {
