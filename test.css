@@ -110,7 +110,7 @@ header{
 
   .nav-links{
     position: absolute;
-    height:94vh;
+    height:881px;
     right: 0px;
     top: 8vh;
     background-color: #0c1112;
@@ -121,7 +121,7 @@ header{
     transform: translateX(100%);
     transition: transform 1s ease-in-out;
     display: flex;
-    
+    z-index: -1;
   }
 
   .navlinks li {
