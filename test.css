@@ -97,7 +97,7 @@ header{
   color: rgb(226, 226, 226);
   opacity: .9;
 }
-/*media */
+/*media
 @media screen and (max-width:768px){
 
   html{
@@ -120,7 +120,70 @@ header{
     width: 30%;
     transform: translateX(100%);
     transition: transform 1s ease-in-out;
+    font-size: 30px;
+  }
+
+  .navlinks li {
+  opacity: 4;
+  }
+
+  .burger{
+    display: block;
+    cursor: pointer;
+  }
+
+  .box{
+    position: absolute;
+    top: 500px;
+    left: 50%;
+    transform :translate(-75% , -60%);
+    width: 300px;
+    text-align: center;
+    margin-left: 80px;
+
+  }
+  .box p{
+    font-size: 30px;
+
+  }
+  .burger{
+    display: block;
+    cursor: pointer;
+  }
+  .about p{
+    width: 300px;
+  }
+
+  .head h1{
+    font-size: 26px;
+  }
+
+
+*/
+
+@media only screen  and (min-width : 375px)
+    and (max-width : 667px) {
+
+  html{
+    scroll-behavior: smooth;
+  }
+
+  body{
+    overflow-x: hidden;
+  }
+
+  .nav-links{
+    position: absolute;
+    height:170px;
+    right: 0px;
+    top: 8vh;
+    background-color: #0c1112;
     display: flex;
+    flex-direction: column;
+    align-items:center;
+    width: 30%;
+    transform: translateX(100%);
+    transition: transform 1s ease-in-out;
     font-size: 30px;
   }
 
