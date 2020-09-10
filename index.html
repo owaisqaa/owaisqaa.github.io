@@ -3,6 +3,8 @@
 
 <head>
   <meta charset="utf-8">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js">
+  </script>
   <link rel="stylesheet" href="test.css">
   <meta name="author" content="Owais">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -73,10 +75,13 @@
       <div class="container2">
         <div class="contact">
           <h1>Contact</h1>
-          <form class="form" action="index.html" method="post">
-            <input class="input" type="name" name="name" placeholder="Name & Surname" required>
-            <input class="input" type="email" name="email" placeholder="Email" required>
+          <form class="form" action="https://formspree.io/owaisqa@gmail.com " method="POST">
+            <input class="input" id="name" type="name" name="name" placeholder="Name & Surname" required>
+            <input class="input" id="email" type="email" name="email" placeholder="Email" required>
             <textarea class="input" id="text-area" name="message" rows="8" cols="80" placeholder="Message" style="resize:none;"></textarea>
+            <div class="status">
+
+            </div>
             <input class="input" id="submit" type="button" name="" value="Send">
           </form>
           <div class="up-down">
