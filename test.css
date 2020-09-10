@@ -198,14 +198,14 @@ header{
   }
 
   .box{
-    position: absolute;
+    position: fixed;
     top: 500px;
     left: 50%;
     transform :translate(-75% , -60%);
     width: 300px;
     text-align: center;
     margin-left: 80px;
-
+    
   }
   .box p{
     font-size: 30px;
