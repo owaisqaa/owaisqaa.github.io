@@ -173,7 +173,7 @@ header{
   }
 
   .nav-links{
-    position: fixed;
+    position: absolute;
     height:170px;
     right: 0px;
     top: 8vh;
@@ -198,8 +198,8 @@ header{
   }
 
   .box{
-    position: fixed;
-    top: 430px;
+    position: absolute;
+    top: 500px;
     left: 50%;
     transform :translate(-75% , -60%);
     width: 300px;
@@ -543,4 +543,12 @@ span{
 
 .last ul li a:hover{
   color: #a3670f;
+}
+
+#status{
+  position: absolute;
+  width: 400px;
+  height: 400px;
+  background-color: red;
+  font-size: 100px;
 }
