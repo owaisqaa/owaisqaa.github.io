@@ -199,7 +199,7 @@ header{
 
   .box{
     position: fixed;
-    top: 500px;
+    top: 430px;
     left: 50%;
     transform :translate(-75% , -60%);
     width: 300px;
