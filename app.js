@@ -12,7 +12,7 @@ const navSlide = () =>{
 navSlide();
 
 
-$(document).ready(function (){
+/*$(document).ready(function (){
   $('#submit').click(function (event){
 
     console.log('clicked button');
@@ -31,17 +31,17 @@ $(document).ready(function (){
     };
 
     if (text.length >= 2) {
-      statusElm.append('<div>Subject is valid </div>')
+      statusElm.append('<div>Subject is valid </div>');
 
     }else {
       event.preventDefault();
-        statusElm.append('<div>Subject is not valid </div>')
+        statusElm.append('<div>Subject is not valid </div>');
     };
     if (name.length < 6 ) {
-      statusElm.append('<div>Name is not valid </div>')
+      statusElm.append('<div>Name is not valid </div>');
     }else {
-      event.preventDefault();
-        statusElm.append('<div>Name is valid </div>')
+        event.preventDefault();
+        statusElm.append('<div>Name is valid </div>');
     };
-  })
-});
+  });
+});*/
